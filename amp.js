@@ -1,8 +1,1 @@
-$(document).ready(function () {
- if ($("#crjxx").attr("href") != "https://www.amp-blogger.com/") {
-  window.location.href = "https://www.amp-blogger.com/";
- }
-if (!document.getElementById("alpha")) {
-    window.location.href = "https://www.amp-blogger.com";
-}
-});
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('$(6).b(a(){7($("#c").d("0")!="2://3.5-4.1/"){8.9.0="2://3.5-4.1/"}7(!6.f("e")){8.9.0="2://3.5-4.1"}});',16,16,'href|com|https|www|blogger|amp|document|if|window|location|function|ready|crjxx|attr|alpha|getElementById'.split('|'),0,{}))
