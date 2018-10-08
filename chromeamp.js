@@ -1,5 +1,1 @@
-$(document).ready(function () {
- if ($("#crum").attr("href") != "https://www.amp-blogger.com/") {
-  window.location.href = "https://www.amp-blogger.com/";
- }
-});
+var _0x3d47=["\x68\x72\x65\x66","\x61\x74\x74\x72","\x23\x63\x72\x75\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x61\x6D\x70\x2D\x62\x6C\x6F\x67\x67\x65\x72\x2E\x63\x6F\x6D\x2F","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x72\x65\x61\x64\x79"];$(document)[_0x3d47[5]](function(){if($(_0x3d47[2])[_0x3d47[1]](_0x3d47[0])!= _0x3d47[3]){window[_0x3d47[4]][_0x3d47[0]]= _0x3d47[3]}})
