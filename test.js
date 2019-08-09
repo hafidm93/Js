@@ -95,3 +95,20 @@ if (img) {
 const p = document.createElement('p');
 p.textContent = 'I am added to the body!';
 document.body.appendChild(p);
+
+var pre = document.getElementsByTagName("PRE");
+Object.values(pre).forEach(e => {
+    var t = document.createAttribute("class");
+    t.value = "notranslate language-markup", e.setAttributeNode(t)
+});
+var code = document.getElementsByTagName("CODE");
+Object.values(code).forEach(e => {
+    var t = document.createAttribute("class");
+    t.value = "language-markup language-html language-css language-javascript notranslate", e.setAttributeNode(t)
+});
+var prevScrollpos = window.pageYOffset;
+
+function myFunction() {
+    var e;
+    "none" === (e = document.getElementById("adSticky")).style.display ? e.style.display = "block" : e.style.display = "none", "none" === (e = document.getElementById("closeme")).style.display ? e.style.display = "block" : e.style.display = "none"
+}
