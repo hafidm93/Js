@@ -91,3 +91,7 @@ if (img) {
     document.body.appendChild(el);
   });
 }
+// my-script.js
+const p = document.createElement('p');
+p.textContent = 'I am added to the body!';
+document.body.appendChild(p);
