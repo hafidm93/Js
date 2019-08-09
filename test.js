@@ -96,6 +96,10 @@ const p = document.createElement('p');
 p.textContent = 'I am added to the body!';
 document.body.appendChild(p);
 
+const p = document.createElement('amp-img');
+p.textContent = 'src='https://4.bp.blogspot.com/-D-ZBY99MsSI/XNp0MuEATOI/AAAAAAAAGPo/oHpsnOuJGYYhDDd7GnOf5nq8gywSLuuagCLcBGAs/s400-rw/AM%2BFOR%2BBLOGGER%2BLOGO%2B%25281%2529.png'';
+document.body.appendChild(p);
+
 var pre = document.getElementsByTagName("PRE");
 Object.values(pre).forEach(e => {
     var t = document.createAttribute("class");
