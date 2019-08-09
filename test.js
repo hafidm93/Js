@@ -107,6 +107,7 @@ Object.values(code).forEach(e => {
     t.value = "language-markup language-html language-css language-javascript notranslate", e.setAttributeNode(t)
 });
 var prevScrollpos = window.pageYOffset;
+document.body.appendChild(el);
 
 function myFunction() {
     var e;
